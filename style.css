@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.txt-let{
+    text-align: left;
+}
+.txt-center{
+    text-align: center;
+}
+.txt.right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.img{
+    max-width: 100%;
+}
+/* Body */
+.protest-guerrilla-regular, h1, h2 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.header-section {
+	padding: 50px;
+}
+.mid-content{
+    width: 1400px;
+    margin: auto;
+  }
+
+.header-logo img {
+	width: 19%;
+}
+.school-name {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.btn1 {
+	height: 300px;
+	width: 300px;
+	background: #1d222a;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300px;
+	padding-left: 30px;
+	margin-right: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    transition: .5s;
+}
+.btn2 {
+	height: 300px;
+	width: 300px;
+	background: #1d222a;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300px;
+	padding-left: 30px;
+	margin-right: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    transition: .5s;
+}
+.sign-in {
+	margin-top: 33px;
+}
+.header-top {
+	background: #d1e1ff;
+	box-shadow: 10px 4px 4px #eaf9fe;
+	padding: 12px;
+}
+
+.menu-section{
+    text-align: center;
+}
+
+.primary-menu ul{
+    text-decoration: none;
+}
+.primary-menu ul li {
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: 800;
+}
+.primary-menu ul li a {
+	text-decoration: none;
+	color: #0066cc;
+}
+.primary-menu ul li a:hover{
+    color: #000;
+    transition: .5s;
+}
+
+/* Banner Section */
+.container.banner-section {
+	text-align: center;
+}
+
+/* Sidebar Section*/
+
+.sidebar {
+	width: 291px;
+	background: #dff4ff;
+	margin-right: 31px;
+	border-radius: 20px;
+	margin-top: 40px;
+	box-shadow: 3px 3px 5px #e5e5e5;
+	padding: 15px 20px;
+}
+.post-content img {
+	width: 70px;
+}
+.post-content h4 {
+	font-size: 25px;
+	color: #f05a28;
+	margin-bottom: 13px;
+}
+.post-1 {
+	text-decoration: none;
+}
+
+
+.banner-img {
+	width: 800px;
+	background-image: url(./school_picture.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 516px;
+}
+
+
+/*Founder-section */
+.founder-img {
+	width: 200px;
+	margin-top: 30px;
+}
+.founder-img img {
+	width: 120%;
+	border-radius: 10px;
+}
+.founder-img p{
+    width: 300px;
+}
+.founder-img p {
+	width: 300px;
+	margin-left: -29px;
+}
+.founder-img h3 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+/* Footer Section */
+
+.footer-section {
+	padding: 50px;
+	background: #413b88;
+	margin-top: 50px;
+}
+.footer-section {
+	padding: 50px;
+	background: #413b88;
+	text-align: center;
+}
+.footer-section h3 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.footer-content {
+	margin-bottom: 24px;
+}
+.footer-content ul{}
+.footer-content ul li span {
+	font-weight: 300;
+}
+.footer-content ul li {
+	display: block;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 800;
+}
+.footer-content ul li a {
+	text-decoration: none;
+	color: #eeeded;
+	font-weight: 300;
+}
+.footer-section p {
+	color: #acacac;
+}
